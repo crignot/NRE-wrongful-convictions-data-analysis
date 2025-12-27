@@ -2,9 +2,9 @@ import pandas as pd
 import re
 
 # File Paths
-input_path = "/Users/chiararignot/Documents/Python/cleaned_output.csv"
-excel_output_path = "/Users/chiararignot/Documents/Python/new_cleaned_output.xlsx"
-csv_output_path = "/Users/chiararignot/Documents/Python/new_cleaned_output.csv"
+input_path = "data/cleaned_output.csv"
+excel_output_path = "outputs/new_cleaned_output.xlsx"
+csv_output_path = "outputs/new_cleaned_output.csv"
 
 # Load File
 df = pd.read_csv(input_path)
