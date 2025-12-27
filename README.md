@@ -2,6 +2,7 @@
 
 This repository contains Python scripts developed to clean and preprocess data from the **National Registry of Exonerations (NRE)**.  
 Due to confidentiality, the raw datasets are not included here. These scripts are provided for transparency and reproducibility of the methods used.
+(Text extraction and parsing were implemented in Python but are also omitted due to legal confidentiality.)
 
 ---
 
@@ -22,4 +23,3 @@ exoneration-data-cleaning/
 - Libraries:
   - pandas
   - numpy
-  - openpyxl (if processing Excel files)
